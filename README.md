@@ -21,10 +21,9 @@
 ✔️ Usa **módulos estáveis** para downloads  
 ✔️ **Auto customização** completa  
 ✔️ **Muitos menus** e conta com 647 comandos  
-✔️ **Notificador de estoque Grow A Garden**  
-✔️ **Notificação de erros** enviada no PV  
+✔️ **Módulos, botões e baileys atualizados**  
 ✔️ **Botões interativos** para comandos  
-✔️ **Upload de todas as mídias** em link  
+✔️ **Upload de imagens** em link  
 ✔️ **Organização avançada** dos comandos  
 ✔️ **Comandos diferenciados e divertidos**  
 ✔️ Sistema de **proteções** avançado  

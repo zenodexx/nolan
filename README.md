@@ -2,7 +2,7 @@
 
 <h1 align="center">
 <p>
-<img src="https://qu.ax/llUWh.jpg" alt="NOLAN BOT" width="720">
+<img src="https://neon-apis.shop/1ba7bc.jpg" alt="NOLAN BOT" width="720">
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 
 ---
 
-## 🚀 Recursos do Nolan Bot v5
+## 🚀 Recursos do Nolan Bot v6
 
 ✔️ Usa **módulos estáveis** para downloads  
 ✔️ **Auto customização** completa  

@@ -1,0 +1,85 @@
+{
+  "ultimo": {
+    "seeds": [
+      {
+        "name": "Carrot",
+        "quantity": 24,
+        "image": null
+      },
+      {
+        "name": "Bamboo",
+        "quantity": 20,
+        "image": null
+      },
+      {
+        "name": "Strawberry",
+        "quantity": 6,
+        "image": null
+      },
+      {
+        "name": "Daffodil",
+        "quantity": 4,
+        "image": null
+      },
+      {
+        "name": "Tomato",
+        "quantity": 1,
+        "image": null
+      },
+      {
+        "name": "Blueberry",
+        "quantity": 1,
+        "image": null
+      }
+    ],
+    "eggs": [
+      {
+        "name": "Mythical Egg",
+        "quantity": 1,
+        "image": null
+      },
+      {
+        "name": "Common Egg",
+        "quantity": 2,
+        "image": null
+      }
+    ],
+    "gears": [
+      {
+        "name": "Trading Ticket",
+        "quantity": 1,
+        "image": null
+      },
+      {
+        "name": "Recall Wrench",
+        "quantity": 1,
+        "image": null
+      },
+      {
+        "name": "Basic Sprinkler",
+        "quantity": 2,
+        "image": null
+      },
+      {
+        "name": "Trowel",
+        "quantity": 3,
+        "image": null
+      },
+      {
+        "name": "Favorite Tool",
+        "quantity": 1,
+        "image": null
+      },
+      {
+        "name": "Watering Can",
+        "quantity": 2,
+        "image": null
+      },
+      {
+        "name": "Harvest Tool",
+        "quantity": 3,
+        "image": null
+      }
+    ]
+  }
+}

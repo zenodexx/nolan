@@ -1,0 +1,83 @@
+Para instalar e rodar um bot usando `PM2` no Ubuntu, siga os passos abaixo.
+Vou guiá-lo através da instalação do PM2 e da configuração.
+
+### 1. Instale o Node.js
+
+Caso ainda não tenha o Node.js instalado, você precisa instalá-lo.
+
+**Instalação direta:**
+
+# Instalar Node.js Versão (LTS) V20
+
+sudo apt update -y && sudo apt upgrade -y
+
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+
+sudo apt install -y nodejs
+
+sudo apt install ffmpeg unzip git
+
+### 2. Instale o PM2
+
+Agora, você pode instalar o PM2 globalmente:
+
+npm install -g pm2
+
+### 3. Navegue até o diretório do seu bot
+
+Use o terminal para navegar até o diretório onde seu bot está:
+
+cd PastaDoBot
+
+### 4. Inicie o bot com PM2
+
+Inicie o seu bot usando o PM2 com o seguinte comando:
+
+pm2 start connect.js --name nome
+
+Onde tem, `--name nome` será o nome do seu processo no PM2.
+
+### 5. Salve a configuração do PM2 para reiniciar automaticamente
+
+Para garantir que o PM2 inicie seu bot novamente após uma reinicialização:
+
+pm2 save
+
+### 6. Configure o PM2 para iniciar automaticamente
+
+Use o seguinte comando para configurar o PM2 para iniciar automaticamente:
+
+pm2 startup
+
+Ele irá gerar um comando que você precisa copiar e colar no terminal,
+execute o comando gerado para completar a configuração.
+
+### 7. Verifique o status do seu bot
+
+Você pode verificar se o seu bot está rodando e monitorar seu status:
+
+pm2 status
+
+### 8. Logs do bot
+
+Para ver os logs do seu bot, você pode usar:
+
+pm2 logs nome
+
+### 9. Parar ou reiniciar o bot
+
+Se você precisar parar ou reiniciar o bot a qualquer momento, 
+você pode usar os seguintes comandos:
+
+- Para parar:
+
+pm2 stop nome
+
+- Para reiniciar:
+
+pm2 restart nome
+
+### Pronto!
+
+Agora, seu bot "nome" deve estar rodando sob o PM2, 
+reiniciando automaticamente após falhas e reinicializações do servidor!
